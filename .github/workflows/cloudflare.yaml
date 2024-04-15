@@ -5,7 +5,7 @@ on:
 
 env:
   NODE_VERSION: "20.x" # set this to the node version to use
-  PROJECT_NAME: "huongdtt.me-landingpage"
+  PROJECT_NAME: "huongdtt-me"
   CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
   CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
 
