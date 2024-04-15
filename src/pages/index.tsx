@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <title>Dắn Hương nè</title>
       </Head>
-      <div className={inter.className}>COMING SOON</div>
+      <div className={inter.className}>COMING SOON - develop</div>
     </>
   );
 }
