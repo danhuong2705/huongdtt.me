@@ -93,7 +93,7 @@ export default function Home() {
         <span className="i">I</span>
         <span className="n">N</span>
         <span className="g">G</span>
-        <span style={{ width: '50px' }} />
+        <span className="space" />
         <span className="s">S</span>
         <span className="o2">O</span>
         <span className="o3">O</span>

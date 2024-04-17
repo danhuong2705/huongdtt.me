@@ -103,9 +103,10 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  /* color: rgb(var(--foreground-rgb)); */
   /* background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb)))
     rgb(var(--background-start-rgb)); */
+  color: #fff;
   background: linear-gradient(to bottom, transparent, #191f22, #060505);
 }
 
@@ -119,7 +120,9 @@ a {
     color-scheme: dark;
   }
 }
-
+.space {
+  width: 50px;
+}
 .object {
   left: 0;
   opacity: 0;
@@ -137,4 +140,14 @@ a {
   font-size: 100px;
   font-weight: 600;
   letter-spacing: 3px;
+}
+
+@media screen and (max-width: 768px) {
+  .coming-soon {
+    font-size: 30px;
+    text-align: center;
+  }
+  .space {
+    width: 20px;
+  }
 }
