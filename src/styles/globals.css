@@ -104,8 +104,9 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb)))
-    rgb(var(--background-start-rgb));
+  /* background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb)))
+    rgb(var(--background-start-rgb)); */
+  background: linear-gradient(to bottom, transparent, #191f22, #060505);
 }
 
 a {
@@ -123,7 +124,7 @@ a {
   left: 0;
   opacity: 0;
   top: 0;
-  width: 50px;
+  width: 80px;
   z-index: -1;
   position: absolute;
 }
